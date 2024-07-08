@@ -16,11 +16,14 @@ For the Mosfet I chose the IRF 520n, you can use any other Mosfet for this as lo
 * Prefboard (universal printed circuit board € 0.38 (China) Optional
 
 # Schematics
+<img src="images/LED%20Controller%201.jpg" alt="Scheme LED Controller" width="400" >
 In order not to make the schematic unnecessarily complicated, I have depicted the control for one color in this schematic. For more colors / LED strips, this can be repeated and connected to the various D-ports of the WEMOS D1 / ESP8266 / ESP32. The code will determine later whether it is an RGB, RGBW or single color.
 The entire circuit is connected to ground. An RGB LED strip has a fixed + and switches the different colors based on the -. The Mosfet ensures that the signal from the WEMOS D1 / ESP8266 / ESP32 is translated to the control of 12 volts. Because everything is controlled via the ground and is otherwise separate from the power supply of the LED strip, the 12 volts can also be 24 volts or, for example, 5 volts. Just take into account the specifications of the relevant Mosfet.
+<img src="images/LED%20Controller%202.jpg" alt="Schema LED Controller met Buck converter" width="600" />
 In many cases I use a single 12 Volt power adapter and I do not have extra 5 Volts available. This is easily solved by using a Step-down or Buck converter that can convert 12 Volts to 5 Volts or, for example, 3.3 Volts.
 
 Mounted on a perf-board it could look like this. I control two LED strips here, both white, one of which has a length of 2 meters and the other a length of 1 meter.
+ <img src="images/LED%20Controller%20print.jpg" alt="LED controller op print" width="250" />
 
 # ESP Code
 The code in ESP-Home is very simple and I have published it on my GitHub site: GitHub 2 LED strips
