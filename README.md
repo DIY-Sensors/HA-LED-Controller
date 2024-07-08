@@ -22,7 +22,7 @@ The entire circuit is connected to ground. An RGB LED strip has a fixed + and sw
 <img src="images/LED%20Controller%202.jpg" alt="Schema LED Controller met Buck converter" width="600" />
 In many cases I use a single 12 Volt power adapter and I do not have extra 5 Volts available. This is easily solved by using a Step-down or Buck converter that can convert 12 Volts to 5 Volts or, for example, 3.3 Volts.
 
-Mounted on a perf-board it could look like this. I control two LED strips here, both white, one of which has a length of 2 meters and the other a length of 1 meter.
+Mounted on a perf-board it could look like this. I control two LED strips here, both white, one of which has a length of 2 meters and the other a length of 1 meter.<br>
  <img src="images/LED%20Controller%20print.jpg" alt="LED controller op print" width="250" />
 
 # ESP Code
