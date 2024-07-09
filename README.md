@@ -1,7 +1,6 @@
 # HA-LED-Controller
 DIY Home Assistant LED Controller
 
-RGB LED controller<br>
 Make: Soldering<br>
 Code: Easy<br>
 Cost: Low<br>
