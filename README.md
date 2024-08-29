@@ -10,7 +10,8 @@ In order not to make the project unnecessarily complicated, I chose a WEMOS Mini
 For the Mosfet I chose the IRF 520n, you can use any other Mosfet for this as long as it has an N-channel as polarity. The IRF 520n can theoretically have 9.7 Ampere at 10 Volt. The most important thing here is the dissipation of heat, 2.5 meters of LED strip (one color) can be done without any problems without cooling. I would definitely mount a heatsink above that. Parts
 
 * WEMOS D1 mini € 1.76 (China)
-* IRF 520n or similar Mosfet € 0.24 (China)
+* 12V version: IRF520n or similar Mosfet € 0.24 (China)
+*  5V version: IRF3708
 * Resistor 10k € 0.02 (China)
 * Prefboard (universal printed circuit board € 0.38 (China) Optional
 
